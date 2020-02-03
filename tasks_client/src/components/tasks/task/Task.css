@@ -1,0 +1,29 @@
+.task-item {
+	border: 1px solid #333;
+	border-radius: 6px;
+
+	margin: 5px auto;
+	padding: 9px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.task-item:hover{
+	background-color: #ecf0f1;
+}
+
+.task-icon-action {
+	margin: 0 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.task-actions .task-complete {
+	color: #16a085;
+}
+
+.task-actions .task-delete {
+	color: #e74c3c;
+}

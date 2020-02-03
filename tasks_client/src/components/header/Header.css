@@ -1,0 +1,18 @@
+.main-header{
+	background-color: #3498db;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: realative;
+	width: 100vw;
+	height: 70px;
+
+	color: #eeeeee;
+	font-size: 20px;
+}
+
+.main-header .title{
+	margin-left: 15px;
+}

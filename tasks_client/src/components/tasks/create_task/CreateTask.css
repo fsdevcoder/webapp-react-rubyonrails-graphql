@@ -1,0 +1,68 @@
+.create-task {
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	height: 100vh;
+
+	background-color: rgba(52, 73, 94,0.9);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create-task form{
+	background-color: #FFF;
+	padding: 20px;
+
+	border-radius: 6px;
+}
+
+input {
+	border: 1px solid #333;
+	background-color: #FFF;
+	border-radius: 4px;
+
+	padding: 8px;
+	font-size: 18px;
+	margin: 5px;
+	margin-left: 0;
+}
+
+.submit-button {
+	width: 100%;
+	border: 1px solid #2980b9;
+	border-radius: 3px;
+	background-color: #3498db;
+
+	margin-top: 10px;
+	padding: 5px;
+
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.add-task-button {
+	float: right;
+	border: 1px solid #2980b9;
+	border-radius: 3px;
+	background-color: #3498db;
+
+	padding: 5px 20px;
+
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.open-modal {
+	display: absolute;
+}
+
+.close-modal {
+	display: none;
+}

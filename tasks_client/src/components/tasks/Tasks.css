@@ -1,0 +1,21 @@
+.tasks-list {
+	max-width: 80%;
+	width: 500px;
+
+	border: 1px solid #333;
+	border-radius: 6px;
+
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.tasks-list .group-list:first-of-type {
+	margin-bottom: 36px;
+}
+
+.group-list .group-title {
+	font-weight: bold;
+	font-size: 20px;
+
+	margin-bottom: 10px;
+}
