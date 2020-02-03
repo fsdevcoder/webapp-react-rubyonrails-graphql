@@ -1,6 +1,6 @@
 
 # Todolist-ruby-react
-A TodoList **WebAPP** with Ruby on Rails from API and ReactJS to Frontend.
+A TodoList **WebAPP** with Ruby on Rails from API and ReactJS to Frontend, used GraphQL.
 
 ![enter image description here](https://i.ibb.co/K0qqSnf/ezgif-com-video-to-gif.gif)
 
