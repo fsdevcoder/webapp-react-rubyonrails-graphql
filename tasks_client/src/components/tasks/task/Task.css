@@ -24,6 +24,10 @@
 	color: #16a085;
 }
 
+.task-actions .task-incomplete {
+	color: #805608;
+}
+
 .task-actions .task-delete {
 	color: #e74c3c;
 }

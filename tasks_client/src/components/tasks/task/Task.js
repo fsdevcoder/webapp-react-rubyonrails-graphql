@@ -21,10 +21,20 @@ class Task extends Component {
 			.catch(error => console.log(`Erro ao atualizar o registro: ${error}`))
 	}
 
+	async handleUnCompleteTask(task) {
+		task.done = false
+
+		await api.put(`/tasks/${task.id}`, task)
+			.then(response => this.props.getTasks())
+			.catch(error => console.log(`Erro ao atualizar o registro: ${error}`))
+	}
+
 	handlerTask(task) {
 		return (
 			<div className="task-item" >
 				<p className="title">{ task.title }</p>
+
+				<p className="title">{ task.desc }</p>
 
 				<div className="task-actions">
 					{ task.done === false && (
@@ -34,7 +44,15 @@ class Task extends Component {
 							onClick={ () => this.handleCompleteTask(task) }
 						/>
 					)
-					}					
+					}
+					{ task.done === true && (
+						<FontAwesomeIcon 
+							icon="undo" 
+							className="task-incomplete task-icon-action" 
+							onClick={ () => this.handleUnCompleteTask(task) }
+						/>
+					)
+					}				
 					<FontAwesomeIcon 
 						icon="trash-alt" 
 						className="task-delete task-icon-action" 
